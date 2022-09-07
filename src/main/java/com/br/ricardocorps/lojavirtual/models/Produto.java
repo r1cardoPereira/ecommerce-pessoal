@@ -11,7 +11,6 @@ public class Produto {
     }
 
     public String setCodigo(String codigo) {
-
         return this.codigo = codigo;
     }
 
@@ -26,7 +25,7 @@ public class Produto {
     public Double getValor() {
         double vlr = Double.parseDouble(valor);
         return vlr;
-    
+
     }
 
     public void setValor(String valor) {
